@@ -1,0 +1,44 @@
+{
+    "name": "juego marciano",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "controller": "*",
+        "animation": "*",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "radio-broadcast": "*",
+        "corgio": "*",
+        "sevenseg": "*",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#926e12eefffd09d453c7cde73f8d6ebd0e666d9d",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "block-menu": "github:riknoll/arcade-custom-menu#v0.0.1",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.6.24",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
