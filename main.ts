@@ -31,7 +31,7 @@ function Creatingenemies () {
     Enemy_42 = sprites.create(assets.image`King enemy`, SpriteKind.Enemy)
     tiles.placeOnTile(Enemy_42, tiles.getTileLocation(4, 26))
     Enemy_43 = sprites.create(assets.image`King enemy`, SpriteKind.Enemy)
-    tiles.placeOnTile(Enemy_42, tiles.getTileLocation(62, 67))
+    tiles.placeOnTile(Enemy_43, tiles.getTileLocation(62, 67))
     Enemy_44 = sprites.create(assets.image`King enemy`, SpriteKind.Enemy)
     tiles.placeOnTile(Enemy_44, tiles.getTileLocation(65, 52))
 }
